@@ -7,6 +7,7 @@ package org.sto;
  * 输入为 非空 字符串且只包含数字 1 和 0。
  */
 public class Solution {
+    // 本题难度不大，但是需要注意不能使用 Integer.parseInt() 方法，因为输入的字符串可能很长，超过了 Integer.MAX_VALUE，所以必须使用字符串的方式进行计算
     public String addBinary(String a, String b) {
         if (a == null || b == null) {
             return null;
