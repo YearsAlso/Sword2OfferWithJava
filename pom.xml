@@ -14,6 +14,7 @@
     <modules>
         <module>sword-to-offer-001</module>
         <module>sword-to-offer-002</module>
+        <module>sword-to-offer-003</module>
     </modules>
 
     <modelVersion>4.0.0</modelVersion>
