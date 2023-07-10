@@ -29,6 +29,9 @@ class Solution {
 
     // 添加一个历史记录，记录已经查找过的三元组
 
+    // TODO: 官方题解中的双指针法，需要实现一下
+    // 这道理的关键在于数据之间的关系，比如排序之后，数据之间的关系就是有大相关，所以可以从头尾两端开始查找
+
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
 
